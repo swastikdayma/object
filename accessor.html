@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="demo"></p>
+
+    <script>
+        const person = {
+            name: "swastik dayma",
+            age : 23,
+            get ag(){
+                return this.age;
+            }
+        };
+        document.getElementById('demo').innerHTML=person.ag
+    </script> -->
+
+    <p id="demo"></p>
+
+<script>
+
+const person = {
+  firstName: "Swastik",
+  lastName: "Dayma",
+  language: "NO",
+  set lang(value) {
+    this.language = value;
+  }
+};
+
+person.lang = "Hindi";
+
+document.getElementById("demo").innerHTML = person.language;
+</script>
+</body>
+</html>
